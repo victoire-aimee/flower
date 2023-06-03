@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-image: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; */
+}
+ul li{
+    display: inline-block;
+    float: left;
+    padding-left: 70px;
+    margin-top: 70px;
+}
+ul li a{
+    color: aliceblue;
+    transition: 1s;
+}
+ul li a:hover{
+    color:aqua;
+}
+fieldset{
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50% ,-50%);
+    background: transparent;
+}
+input{
+    margin-top: 20px;
+    padding: 11px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+    color: azure;
+}
+h3 span{
+    color: aqua;
+}
+
+#danielfuck{
+    background: rgb(107, 107, 165);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    transition: 2s;
+}
+#danielfuck:hover{
+    background: aqua;
+}
+
+

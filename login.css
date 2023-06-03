@@ -1,0 +1,19 @@
+
+body{
+    background-attachment: fixed;
+    background-image:url(zq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 100px;
+    height: 100 px;
+
+}
+fieldset
+{
+    width: 250px;
+    height: 250px;
+}	
+      
+ 
